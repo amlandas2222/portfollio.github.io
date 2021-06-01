@@ -1,0 +1,159 @@
+
+.navbar ul li a{
+    font-size: 20px;
+}
+.nav-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.add{
+    flex-direction: column;
+    transition: 2.5s all;
+}
+.nav-li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0px 24px;
+    padding: 4px 0px;
+    height: 46px;
+}
+.hidden-text{
+
+    color: white;
+    position: absolute;
+    top: 363px;
+    width: 282px;
+    left: 1px;
+    transition: 2s all;
+}
+.navbar{
+    display: inline-block;
+}
+
+.about img{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 8px;
+    top: 105px;
+}
+.nav-out{
+    opacity: 0;
+    pointer-events: none;
+}
+.nav-in{
+    opacity: 1;
+    pointer-events: all;
+}
+.intro{
+    display: flex;
+    padding: 2px 2px 2px 2px;
+    margin: 2px 2px 2px 2px;
+}
+.burger{
+    color: white;
+}
+.lines{
+    width: 33px;
+    height: 4px;
+    background-color: white;
+    margin: 3px 3px;
+    
+}
+.burger{
+    position: absolute;
+    left: 275px;
+    top: 34px;
+}
+.burger{
+    color: white;
+}
+.box1-icon img{
+    display: none;
+}
+.service-pic img{
+    display: none;
+}
+.para{
+    font-size: 22px;
+    width: 300px;
+}
+.skill-pic img{
+    display: none;
+}
+.skill-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info {
+    margin: 1px 1px;
+    padding: 1px 1px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-family: 'Pattaya', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+}
+.skill-para {
+    padding-left: 20px;
+    width: 254px;
+    padding: 84px 76px;
+    margin: 6px 33px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    transform: translateY(20px);
+    transition: 3s all ease-in-out;
+}
+form {
+    padding: 1px -16px;
+    margin: 0px -107px;
+    width: 100%;
+}
+button {
+    width: 22%;
+    height: 25px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px white;
+    border: none;
+}
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    margin: auto;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    margin: auto;
+}
+.box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    margin: auto;
+}
+input,textarea{
+    margin: 10px 126px;
+}
+
+
+.nav-ul img {
+    height: 98px;
+    width: 139px;
+    margin: 1px 101px;
+}

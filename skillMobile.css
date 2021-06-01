@@ -1,0 +1,38 @@
+.skill-pic img{
+    display: none;
+}
+.skill-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info {
+    margin: 1px 1px;
+    padding: 1px 1px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-family: 'Pattaya', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+}
+.skill-para {
+    padding-left: 20px;
+    width: 254px;
+    padding: 84px 76px;
+    margin: 6px 33px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    transform: translateY(20px);
+    transition: 3s all ease-in-out;
+}
+.skill {
+    background: url(skillBg.jpg);
+    background-blend-mode: darken;
+    height: 143vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

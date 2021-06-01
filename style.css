@@ -1,0 +1,444 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background:  rgba(0, 0, 0, 0.5)  url("blackWall.jpg");
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.intro-text h1{
+    color: aliceblue;
+}
+.aboutMe p{
+    color: black;
+    font-size: 100px;
+    
+}
+.aboutMe{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.fadein{
+    opacity: 1;
+    pointer-events: all;
+ } 
+.aboutMe p{
+    opacity: 0;
+} 
+.nav-ul img{
+    margin: 4px 0px 0px 36px;
+    height: 80px;
+    width: 120px;
+}
+.nav-ul{
+    display: flex;
+    position: sticky;
+}
+.nav-li{
+    display: flex;
+    align-items: center;
+    margin: 14px 34px;
+    padding: 11px 2px;
+    height: 50px;
+    
+}
+.nav-li a{
+    text-decoration: none;
+    color: wheat;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-family: 'Pattaya', sans-serif;
+}
+.nav-li a:hover{
+    color: crimson;
+}
+.add{
+    display: flex;
+
+}
+
+.fadeout{
+    opacity: 0;
+    pointer-events: none;
+}
+.fadein{
+    opacity: 1;
+    pointer-events: all;
+}
+.hidden-text{
+    color: white;
+    position: absolute;
+    top: 240px;
+    width: 300px;
+    left: 119px;
+    transition: 2s all;
+}
+button{
+    width: 10%;
+    height: 25px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px white;
+    border: none;
+}
+.about h5{
+    color: wheat;
+    margin: 5px 5px;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+
+
+}
+
+
+/* about section */
+
+.about img{
+    height: 300px;
+    width: 300px;
+    border: 2px solid wheat;
+    border-radius: 50%;
+    position: absolute;
+    left:50rem;
+    margin-top:19px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    padding: 138px 101px;
+    margin: 60px 23px;
+    transition: 1.5s all;
+
+}
+
+.intro h1{
+    color: wheat;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    
+
+}
+.typing{
+    position: relative;
+    margin-left: 10px;
+    color: white;
+}
+.typing::after{
+    content: " ";
+    position: absolute;
+    height: 39px;
+    width: 1px;
+    border-right: 5px solid wheat;
+    animation: blink 1s infinite ease;
+    
+
+} 
+ @keyframes blink{
+    0%{
+    opacity: 0;
+    }
+    100%{
+    opacity: 1;
+    }
+} 
+.services{
+    z-index: 2;
+    position: absolute;
+    height: 103vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5) url("bg3.png");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+/* services section  */
+
+.services-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin: auto;
+} 
+.service-pic{
+    position: absolute;
+    left: 100px;
+} 
+ .service-pic img{
+    height: 300px;
+     width: 300px; 
+    border-radius:20% ;
+} 
+.box1-icon img{
+    padding: 2px 2px;
+    border-radius:50% ;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 180px;
+    margin: auto;
+
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+}
+.box1-para{
+    flex-direction: column;
+}
+.box2-para{
+    flex-direction: column;
+}
+.box3-para{
+    flex-direction: column;
+}
+
+
+.main-text{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    transform: translateY(20px);
+    transition: 1s all ease-in-out;
+    color: wheat;
+}
+.para{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    transform: translateY(20px);
+    transition: 1s all ease-in-out;
+    color: white;
+    
+    
+} 
+/* skill section  */
+.box1-icon img{ 
+    height: 100px;
+    width: 100px;
+}
+ .skill{
+    background:  url('skillBg.jpg');
+    background-blend-mode: darken;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+} 
+.skill h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Pattaya', sans-serif;
+    font-size: 35px;
+    padding-top: 15px;
+}
+.skill-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .skill-para{
+   padding-left:20px ;
+    width: 400px;
+    padding: 110px 97px;
+    margin: 6px 33px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    transform: translateY(20px);
+    transition: 3s all ease-in-out;
+
+} 
+  .skill-para h3{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    font-size: 21px;
+}
+.skill-para p{
+    color: black;
+    font-size:16px ;
+}
+.info{
+    margin: 1px 1px;
+    padding:1px 1px;
+    margin-bottom:5px ;
+    font-size: 15px;
+    font-family: 'Pattaya', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    
+}
+ .info span{
+    font-weight: 500;
+    
+}
+ .line{
+    height: 3px; 
+    width: 100%; 
+    background: lightgray;
+    position: relative;
+}
+/* .line::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    top: 0;
+    left: 0;
+    background:;
+} */
+.html::before{
+     content: "";
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    top: 0;
+    left: 0;
+    background: black;
+
+}
+
+.css::before{
+    content: "";
+   position: absolute;
+   height: 100%;
+   width: 80%;
+   top: 0;
+   left: 0;
+   background: black;
+
+}
+ 
+.javascript::before{
+    content: "";
+   position: absolute;
+   height: 100%;
+   width: 60%;
+   top: 0;
+   left: 0;
+   background: rgb(0, 0, 0);
+
+}
+ 
+.php::before{
+    content: "";
+   position: absolute;
+   height: 100%;
+   width: 50%;
+   top: 0;
+   left: 0;
+   background: rgb(0, 0, 0);
+
+}
+button:hover{
+    font-size: 20px;
+}
+ 
+.mysql::before{
+    content: "";
+   position: absolute;
+   height: 100%;
+   width: 60%;
+   top: 0;
+   left: 0;
+   background: rgb(0, 0, 0);
+
+}  
+    
+
+.percent{
+    padding: 2px 2px;
+}
+.text-appear{
+    opacity: 1;
+    transform: translateY(0px);
+} 
+
+.skill-pic img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+}
+
+/* contact form section */
+
+.container{
+    padding: 23px;
+    margin: auto;
+    width: 80%;
+     height: 90vh;  
+}
+
+
+.container,h3,p{
+    text-align: center;
+    font-family: sans-serif;
+    color: blanchedalmond;
+}
+input,textarea{
+    width: 80%;
+    margin: 5px 5px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 6px;
+    display: block;
+    margin: auto;
+    padding: 10px 10px;
+    margin: 8px 90px; 
+    border-radius: 10px;
+}
+
+
+form{
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+.submit-msg{
+    color: green;
+    font-size: 20px;
+}
+.container h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+}
+.container{
+    background: url('contactBg.jpg');
+     height: 100vh; 
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  

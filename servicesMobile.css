@@ -1,0 +1,15 @@
+
+.service-pic img{
+    display: none;
+}
+.box1-icon img{
+    display: none;
+}
+.services{
+    z-index: 2;
+    position: absolute;
+    height: 125vh;
+    width: 120%;
+    background: rgb(70, 64, 64) url("bg3.png");
+    background-blend-mode: darken;
+}

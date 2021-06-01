@@ -1,0 +1,84 @@
+    
+    .services{
+        z-index: 2;
+        position: absolute;
+        height: 125vh;
+        width: 100%;
+        background: rgb(70, 64, 64) url("bg3.png");
+        background-blend-mode: darken;
+    }
+    .services-header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 10px;
+        font-family: 'Pattaya', sans-serif;
+        font-size: 35px;
+        color: crimson;
+    }
+    .service-pic{
+        position: absolute;
+        left: 100px;
+    }
+    .service-pic img{
+        height: 300px;
+        width: 300px;
+        border-radius:20% ;
+    }
+    .box1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        margin: auto;
+    }
+    .box1-icon img{
+        padding: 2px 2px;
+        border-radius:50% ;
+    }
+    .box2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 200px;
+        margin: auto;
+    
+    }
+    .box3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 180px;
+        margin: auto;
+    }
+    .box1-para{
+        flex-direction: column;
+    }
+    .box2-para{
+        flex-direction: column;
+    }
+    .box3-para{
+        flex-direction: column;
+    }
+    .box1-icon img{ 
+        height: 100px;
+        width: 100px;
+    }
+    
+    
+    .main-text{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+        transform: translateY(20px);
+        transition: 1s all ease-in-out;
+        color: crimson;
+    }
+    .para{
+        font-size: 20px;
+        font-family: 'Oswald', sans-serif;
+        transform: translateY(20px);
+        transition: 1s all ease-in-out;
+        color: rgb(255, 255, 255);
+    }

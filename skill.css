@@ -1,0 +1,152 @@
+
+.box1-icon img{ 
+    height: 100px;
+    width: 100px;
+}
+ .skill{
+    background:  url('skillBg.jpg');
+    background-blend-mode: darken;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+} 
+.skill h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Pattaya', sans-serif;
+    font-size: 35px;
+    padding-top: 15px;
+}
+.skill-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .skill-para{
+   padding-left:20px ;
+    width: 400px;
+    padding: 110px 97px;
+    margin: 6px 33px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    transform: translateY(20px);
+    transition: 3s all ease-in-out;
+
+} 
+  .skill-para h3{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    font-size: 21px;
+}
+.skill-para p{
+    color: black;
+    font-size:16px ;
+}
+.info{
+    margin: 1px 1px;
+    padding:1px 1px;
+    margin-bottom:5px ;
+    font-size: 15px;
+    font-family: 'Pattaya', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    
+}
+ .info span{
+    font-weight: 500;
+    
+}
+ .line{
+    height: 3px; 
+    width: 100%; 
+    background: lightgray;
+    position: relative;
+}
+/* .line::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    top: 0;
+    left: 0;
+    background:;
+} */
+.html::before{
+     content: "";
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    top: 0;
+    left: 0;
+    background: black;
+
+}
+
+.css::before{
+    content: "";
+   position: absolute;
+   height: 100%;
+   width: 80%;
+   top: 0;
+   left: 0;
+   background: black;
+
+}
+ 
+.javascript::before{
+    content: "";
+   position: absolute;
+   height: 100%;
+   width: 60%;
+   top: 0;
+   left: 0;
+   background: rgb(0, 0, 0);
+
+}
+ 
+.php::before{
+    content: "";
+   position: absolute;
+   height: 100%;
+   width: 50%;
+   top: 0;
+   left: 0;
+   background: rgb(0, 0, 0);
+
+}
+button:hover{
+    font-size: 20px;
+}
+ 
+.mysql::before{
+    content: "";
+   position: absolute;
+   height: 100%;
+   width: 60%;
+   top: 0;
+   left: 0;
+   background: rgb(0, 0, 0);
+
+}  
+    
+
+.percent{
+    padding: 2px 2px;
+}
+.text-appear{
+    opacity: 1;
+    transform: translateY(0px);
+} 
+
+.skill-pic img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+}

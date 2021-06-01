@@ -1,0 +1,21 @@
+body{
+    overflow: hidden;
+}
+.pik {
+    position: absolute;
+    left: 201px;
+    top: 116px;
+}
+.pik img{
+    width: 150px;
+    height: 150px;
+}
+.me{
+    position: absolute;
+    left: -150px;
+    }
+    .container {
+        height: 141vh;
+        width: 152%;
+        background: url(bg3.png);
+    }
